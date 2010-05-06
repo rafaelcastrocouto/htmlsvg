@@ -8,7 +8,7 @@ Can use it in html line or call an external svg file with "scr" attribute.
 
 = 1. Copy the file =
 
-Copy htmlsvg.full.js[http://htmlsvg.googlecode.com/files/htmlsvg.full.js] to your html folder.
+Copy htmlsvg.full.js [http://htmlsvg.googlecode.com/files/htmlsvg.full.js] to your html folder.
 
 = 2. Head section =
 
