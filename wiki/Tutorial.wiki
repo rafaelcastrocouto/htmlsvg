@@ -33,3 +33,5 @@ Write your `<svg>` tags in `<body` section:
 {{{
 <svg scr="mysvgfiles.svg"></svg>
 }}}
+
+View demo here: http://localhost/svg/htmlsvg/test.html
