@@ -1,0 +1,35 @@
+#labels Featured
+#htmlsvg.js
+
+= Introduction =
+
+Allows use of <svg> tags directly in html code. 
+Can use it in html line or call an external svg file with "scr" attribute.
+
+= 1. Copy the file =
+
+Copy htmlsvg.full.js[http://htmlsvg.googlecode.com/files/htmlsvg.full.js] to your html folder.
+
+= 2. Head section =
+
+Add this line in `<head>` section:
+{{{
+<script type="text/javascript" src="htmlsvg.full.js"></script>
+}}}
+
+= 3. Body section =
+
+Write your `<svg>` tags:
+
+  * In line:
+{{{
+<svg id="mysvgtag" > 
+<rect x="50" y="30" width="80" height="50"  fill="green" ></rect> 
+<circle cx="50" cy="60" r="50"  fill="none" stroke="blue" stroke-width="15"  ></circle> 
+<text y="42" x="97" >Hello World!</text> 
+</svg> 
+}}}
+  * External file reference:
+{{{
+<svg scr="mysvgfiles.svg"></svg>
+}}}
