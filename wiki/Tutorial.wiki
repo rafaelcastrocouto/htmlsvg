@@ -19,7 +19,7 @@ Add this line in `<head>` section:
 
 = 3. Body section =
 
-Write your `<svg>` tags:
+Write your `<svg>` tags in `<body` section:
 
   * In line:
 {{{
