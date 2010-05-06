@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Allows use of <svg> tags directly in html code. 
+Allows use of `<svg>` tags directly in html code. 
 Can use it in html line or call an external svg file with "scr" attribute.
 
 = 1. Copy the file =
