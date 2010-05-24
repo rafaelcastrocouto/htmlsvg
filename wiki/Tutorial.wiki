@@ -31,7 +31,7 @@ Write your `<svg>` tags in `<body` section:
 }}}
   * External file reference:
 {{{
-<svg scr="mysvgfiles.svg"></svg>
+<svg scr="_file.svg_"></svg>
 }}}
 
-View demo here: http://localhost/svg/htmlsvg/test.html
+View demo here: http://www.ess.ufrj.br/rcc/htmlsvg/
