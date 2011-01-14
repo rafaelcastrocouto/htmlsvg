@@ -19,17 +19,8 @@ Add this line in `<head>` section:
 
 = 3. Body section =
 
-Write your `<svg>` tags in `<body` section:
+Write your `<svg>` tags in `<body>` section:
 
-  * In line:
-{{{
-<svg id="mysvgtag" > 
-<rect x="50" y="30" width="80" height="50"  fill="green" ></rect> 
-<circle cx="50" cy="60" r="50"  fill="none" stroke="blue" stroke-width="15"  ></circle> 
-<text y="42" x="97" >Hello World!</text> 
-</svg> 
-}}}
-  * External file reference:
 {{{
 <svg scr="_file.svg_"></svg>
 }}}
