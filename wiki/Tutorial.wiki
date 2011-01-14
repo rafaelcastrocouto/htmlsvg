@@ -22,7 +22,7 @@ Add this line in `<head>` section:
 Write your `<svg>` tags in `<body>` section:
 
 {{{
-<svg scr="_file.svg_"></svg>
+<svg scr="file.svg"></svg>
 }}}
 
 View demo here: http://www.ess.ufrj.br/rcc/htmlsvg/
