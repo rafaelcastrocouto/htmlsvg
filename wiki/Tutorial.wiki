@@ -24,5 +24,3 @@ Write your `<svg>` tags in `<body>` section:
 {{{
 <svg scr="file.svg"></svg>
 }}}
-
-View demo here: http://www.ess.ufrj.br/rcc/htmlsvg/
