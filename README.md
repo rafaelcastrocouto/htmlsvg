@@ -11,24 +11,23 @@
 Allows use of `<svg>` tags directly in html code. 
 Can use an external svg file with "scr" attribute.
 
-= 1. Copy the file =
+ 1. Copy the file
 
-Copy htmlsvg.full.js [http://htmlsvg.googlecode.com/files/htmlsvg.full.js] to your html folder.
+Make a copy of htmlsvg.full.js [https://raw.githubusercontent.com/rafaelcastrocouto/htmlsvg/master/htmlsvg.full.js] to your project folder.
 
-= 2. Head section =
+ 2. Head section
 
-Add this line in `<head>` section:
-{{{
-<script type="text/javascript" src="htmlsvg.full.js"></script>
-}}}
+Add this line in `<head>` section of your HTML:
 
-= 3. Body section =
+    <script type="text/javascript" src="htmlsvg.full.js"></script>
+
+ 3. Body section
 
 Write your `<svg>` tags in `<body>` section:
 
-{{{
-<svg scr="file.svg"></svg>
-}}}
+    <svg scr="file.svg"></svg>
+
+All SVG tags will be converted to canvas elements.
 
 Please [fork][1] or [download][2] and help!
 
